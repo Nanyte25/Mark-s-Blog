@@ -18,10 +18,10 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'surf.jpg',
-  paragraphOne: 'I am Senior Site Reliability Enginer workinf for Red Hat based in Waterford Ireland.',
-  paragraphTwo: 'Interested in Kubernetes, Openshift, Open source projects.',
+  paragraphOne: 'I am Senior Site Reliability Enginer working for Red Hat Ireland and based in Waterford Ireland.',
+  paragraphTwo: 'Interested in Kubernetes, Openshift, AWS, Go-lang, and Open source projects.',
   paragraphThree: 'I like to Surf and do Sea Kayaking on Waterfords local beaches.',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -39,7 +39,16 @@ export const projectsData = [
     id: nanoid(),
     img: 'rpi-cluster.jpg',
     title: 'Settting Up an Kubernetes RaspBerry Pi4 Cluster',
-    info: '',
+    info: 'Kubernetes is a great testing plaform and the Rapsberry PI make for cheap physical nodes',
+    info2: 'This tutorial will step you through the process of getting you cluster up and running',
+    url: '',
+    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'Jira1.jpg',
+    title: 'Setup a Jira instance for your Dev Projects',
+    info: 'This tutorial will guide you through setting up a jira instance for all your development projects',
     info2: '',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
