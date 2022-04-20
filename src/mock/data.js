@@ -18,9 +18,11 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'surf.jpg',
-  paragraphOne: 'I am Senior Site Reliability Enginer working for Red Hat Ireland and based in Waterford Ireland.',
-  paragraphTwo: 'Interested in Kubernetes, Openshift, AWS, Go-lang, and Open source projects.',
-  paragraphThree: 'I like to Surf and do Sea Kayaking on Waterfords local beaches.',
+  paragraphOne:
+    'I am Senior Site Reliability Enginer, working for Red Hat Ireland and based in Waterford Ireland.',
+  paragraphTwo:
+    'Interested in Kubernetes, Openshift, AWS, Go-lang, and contributing to many open source projects. I have keen interested in cloud security aswell',
+  paragraphThree: 'I like to surf and do sea Kayaking on Waterfords local beaches.',
   resume: '', // if no resume, the button will not show up
 };
 
