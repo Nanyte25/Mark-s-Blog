@@ -30,6 +30,15 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'crc.jpg',
+    title: 'Installing Red Hat(Code Ready Containers) on Ubuntu 20.04',
+    info: 'While I have often found tutorials online on installing Minishift and Minikube locally on my laptop. That is to say other local kubernetes type installation. Sourcing a tutorial or walkthrough that covers an alternative OS types can be difficult.So I decided to create quick blog post on installing Code Ready Containers (CRC) on the Ubuntu OS. For the purpose of this blog post I will use CRC for short.',
+    info2: 'Highlights some of node js security principals',
+    url: 'https://medium.com/@markfreer/installing-red-hat-code-ready-containers-on-ubuntu-20-04-9ec7319d17c0',
+    repo: 'https://medium.com/@markfreer/installing-red-hat-code-ready-containers-on-ubuntu-20-04-9ec7319d17c0', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'project2.jpg',
     title: 'Secure M.E.R.N Web application',
     info: 'This is a secure M.E.R.N Web application demo OWASP security top ten',
@@ -48,12 +57,12 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'Jira1.jpg',
-    title: 'Setup a Jira instance for your Dev Projects',
-    info: 'This tutorial will guide you through setting up a jira instance for all your development projects',
+    img: 'rosa.jpg',
+    title: 'Deploy a ROSA cluster in STS mode',
+    info: 'This tutorial will guide you deploying a ROSA cluster, WHich is an Openshift Dedicated cluster on AWS.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://medium.com/@markfreer/deploy-a-rosa-cluster-in-sts-mode-3a5649fe3c2',
+    repo: 'https://medium.com/@markfreer/deploy-a-rosa-cluster-in-sts-mode-3a5649fe3c2', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
