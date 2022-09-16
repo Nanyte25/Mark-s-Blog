@@ -9,7 +9,7 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: 'Welcome to Mark Freer Blogs',
+  title: 'Open Source',
   name: 'Mark Freer',
   subtitle: 'I am a Senior (S.R.E) at Red Hat',
   cta: '',
@@ -66,11 +66,11 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'Glitchtip3.png',
+    img: 'Glitchtip3.jpg',
     title: 'Glitchtip Error tracking software',
     info: 'This project was to standup a self hosted version of Glitchtip on Openshift dedicated. There is a script the the main repository to help test out Glitchtip. Its a working progress.',
-    info2: '',
-    url: '',
+    info2: 'If you need to track bugs in a service or component within you software Glitchtip does just that.',
+    url: 'https://github.com/Nanyte25/glitchtip',
     repo: 'https://github.com/Nanyte25/glitchtip', // if no repo, the button will not show up
   },
 ];
