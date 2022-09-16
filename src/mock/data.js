@@ -69,7 +69,8 @@ export const projectsData = [
     img: 'Glitchtip3.jpg',
     title: 'Glitchtip Error tracking software',
     info: 'This project was to standup a self hosted version of Glitchtip on Openshift dedicated. There is a script the the main repository to help test out Glitchtip. Its a working progress.',
-    info2: 'If you need to track bugs in a service or component within you software Glitchtip does just that.',
+    info2:
+      'If you need to track bugs in a service or component within you software Glitchtip does just that.',
     url: 'https://github.com/Nanyte25/glitchtip',
     repo: 'https://github.com/Nanyte25/glitchtip', // if no repo, the button will not show up
   },
@@ -88,7 +89,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
+      url: 'https://twitter.com/Nanyte25',
     },
     {
       id: nanoid(),
