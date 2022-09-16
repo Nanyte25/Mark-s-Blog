@@ -64,6 +64,15 @@ export const projectsData = [
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'Glitchtip3.png',
+    title: 'Glitchtip Error tracking software',
+    info: 'This project was to standup a self hosted version of Glitchtip on Openshift dedicated. There is a script the the main repository to help test out Glitchtip. Its a working progress.',
+    info2: '',
+    url: '',
+    repo: 'https://github.com/Nanyte25/glitchtip', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA
