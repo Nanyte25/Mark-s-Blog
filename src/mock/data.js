@@ -9,7 +9,7 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: '',
+  title: 'Welcome to Mark Freer Blogs',
   name: 'Mark Freer',
   subtitle: 'I am a Senior (S.R.E) at Red Hat',
   cta: '',
@@ -19,10 +19,10 @@ export const heroData = {
 export const aboutData = {
   img: 'surf.jpg',
   paragraphOne:
-    'I am Senior Site Reliability Enginer, working for Red Hat Ireland and based in Waterford Ireland.',
+    'I am Senior Site Reliability Engineer, working for Red Hat Ireland and based in Waterford Ireland.',
   paragraphTwo:
-    'Interested in Kubernetes, Openshift, AWS, Go-lang, and contributing to many open source projects. I have keen interested in cloud security aswell',
-  paragraphThree: 'I like to surf and do sea Kayaking on Waterfords local beaches.',
+    'Interested in Kubernetes, Openshift, AWS, Go-lang, and contributing to many open source projects. I have keen interested in cloud security as-well',
+  paragraphThree: 'I like to surf and do sea Kayaking on Waterford local beaches.',
   resume: '', // if no resume, the button will not show up
 };
 
